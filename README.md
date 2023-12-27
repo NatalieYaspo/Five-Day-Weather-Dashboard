@@ -6,7 +6,7 @@ This is a weather dashboard showing the forecast for the next five days based on
 
 ## Installation
 
-URL: 
+URL: https://natalieyaspo.github.io/Five-Day-Weather-Dashboard/
 
 ## Usage
 
