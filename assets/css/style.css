@@ -1,0 +1,16 @@
+
+
+header {
+    background-color: darkblue;
+    color: white;
+}
+
+.display-6 {
+    font-weight: bolder;
+}
+
+#pastSearches button {
+    background-color: lightgray;
+    color: black;
+    border-color: lightgray;
+}
