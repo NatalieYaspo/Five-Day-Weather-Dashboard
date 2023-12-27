@@ -31,7 +31,7 @@ function handleSearchFormSubmit(event) {
     setDates();
 
     //Converts user entry of City Name to GeoCode with Latitude & Longitude for location.
-    var queryGeoCode = 'http://api.openweathermap.org/geo/1.0/direct?q=' + searchInputVal + '&limit=1&appid=' + apiKey;
+    var queryGeoCode = 'https://api.openweathermap.org/geo/1.0/direct?q=' + searchInputVal + '&limit=1&appid=' + apiKey;
     //console.log('returning geoCode for search input? ' + queryGeoCode); //pull link from API.
 
     fetch(queryGeoCode)
@@ -112,7 +112,7 @@ function getCityWeather() {
             // console.log('wind for current temp? ' + wind);//working!
 
             //Have new Data appear on screen:
-            currentWeatherIcon.src = 'http://openweathermap.org/img/w/' + icon + '.png';
+            currentWeatherIcon.src = 'https://openweathermap.org/img/w/' + icon + '.png';
             currentTempDisp.textContent = "Temperature: " + temp + " degrees F";
             currentWindDisp.textContent = "Wind Speed: " + wind + " MPH";
             currentHumidDisp.textContent = "Humidity: " + humidity + "%";
@@ -146,7 +146,7 @@ function getFiveDayForecast() {
             var wind01 = dataArr[0].wind.speed
             var humidity01 = dataArr[0].main.humidity
             //Day-01 how it will appear on screen
-            icon01El.src = 'http://openweathermap.org/img/w/' + icon01 + '.png';
+            icon01El.src = 'https://openweathermap.org/img/w/' + icon01 + '.png';
             temp01El.textContent = "Temperature: " + temp01 + " degrees F";
             wind01El.textContent = "Wind Speed: " + wind01 + " MPH";
             humidity01El.textContent = "Humidity: " + humidity01 + "%";
@@ -162,7 +162,7 @@ function getFiveDayForecast() {
             var wind02 = dataArr[8].wind.speed
             var humidity02 = dataArr[8].main.humidity
             //Day-02 how it will appear on screen
-            icon02El.src = 'http://openweathermap.org/img/w/' + icon02 + '.png';
+            icon02El.src = 'https://openweathermap.org/img/w/' + icon02 + '.png';
             temp02El.textContent = "Temperature: " + temp02 + " degrees F";
             wind02El.textContent = "Wind Speed: " + wind02 + " MPH";
             humidity02El.textContent = "Humidity: " + humidity02 + "%";
@@ -178,7 +178,7 @@ function getFiveDayForecast() {
             var wind03 = dataArr[16].wind.speed
             var humidity03 = dataArr[16].main.humidity
             //Day-03 how it will appear on screen
-            icon03El.src = 'http://openweathermap.org/img/w/' + icon03 + '.png';
+            icon03El.src = 'https://openweathermap.org/img/w/' + icon03 + '.png';
             temp03El.textContent = "Temperature: " + temp03 + " degrees F";
             wind03El.textContent = "Wind Speed: " + wind03 + " MPH";
             humidity03El.textContent = "Humidity: " + humidity03 + "%";
@@ -194,7 +194,7 @@ function getFiveDayForecast() {
             var wind04 = dataArr[24].wind.speed
             var humidity04 = dataArr[24].main.humidity
             //Day-04 how it will appear on screen
-            icon04El.src = 'http://openweathermap.org/img/w/' + icon04 + '.png';
+            icon04El.src = 'https://openweathermap.org/img/w/' + icon04 + '.png';
             temp04El.textContent = "Temperature: " + temp04 + " degrees F";
             wind04El.textContent = "Wind Speed: " + wind04 + " MPH";
             humidity04El.textContent = "Humidity: " + humidity04 + "%";
@@ -210,7 +210,7 @@ function getFiveDayForecast() {
             var wind05 = dataArr[32].wind.speed
             var humidity05 = dataArr[32].main.humidity
             //Day-05 how it will appear on screen
-            icon05El.src = 'http://openweathermap.org/img/w/' + icon05 + '.png';
+            icon05El.src = 'https://openweathermap.org/img/w/' + icon05 + '.png';
             temp05El.textContent = "Temperature: " + temp05 + " degrees F";
             wind05El.textContent = "Wind Speed: " + wind05 + " MPH";
             humidity05El.textContent = "Humidity: " + humidity05 + "%";
