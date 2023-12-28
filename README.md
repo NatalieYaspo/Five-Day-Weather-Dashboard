@@ -11,23 +11,19 @@ URL: https://natalieyaspo.github.io/Five-Day-Weather-Dashboard/
 ## Usage
 
 User is presernted with a weather dashboard with form inputs to search for a city.
-![OpenPageSnap](https://github.com/NatalieYaspo/Five-Day-Weather-Dashboard/assets/149972640/c3a44250-eb49-4e1d-b5a8-1e1769c4df37)
 
-<img src="..." alt="Weather dashbord asking for input for a city search">
+![OpenPageSnap](https://github.com/NatalieYaspo/Five-Day-Weather-Dashboard/assets/149972640/c3a44250-eb49-4e1d-b5a8-1e1769c4df37)
 
 Once the city has been searched for, the user is presented with the current weather conditions for that city, an icon representing the those conditions, the temperature, humidity and wind speed.
 The user will also be presented with the future forecast for the next five days.
+
 ![CitySearchSnap](https://github.com/NatalieYaspo/Five-Day-Weather-Dashboard/assets/149972640/c1691414-8113-4f93-b35b-489a90d6396a)
 
-<img src="..." alt="Current weather conditions in the searched city.">
 ![SecondCitySearchSnap](https://github.com/NatalieYaspo/Five-Day-Weather-Dashboard/assets/149972640/e2d345df-ae73-4587-aedf-f584534276bc)
 
-<img src="..." alt="Five day weather conditions in the searched city.">
-
 When the user clicks on a city in the search history, those conditions reappear.
-![PastSearchButtonsSnap](https://github.com/NatalieYaspo/Five-Day-Weather-Dashboard/assets/149972640/a7136e66-0276-4086-8568-9fb99dde4e14)
 
-<img src="..." alt="Search history list.">
+![PastSearchButtonsSnap](https://github.com/NatalieYaspo/Five-Day-Weather-Dashboard/assets/149972640/a7136e66-0276-4086-8568-9fb99dde4e14)
 
 ## Credits
 
