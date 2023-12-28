@@ -244,7 +244,7 @@ function handleReSearchFormSubmit(event) {
     setDates();
 
     //Converts user entry of City Name to GeoCode with Latitude & Longitude for location.
-    var queryGeoCode = 'http://api.openweathermap.org/geo/1.0/direct?q=' + reSearchCity + '&limit=1&appid=' + apiKey;
+    var queryGeoCode = 'https://api.openweathermap.org/geo/1.0/direct?q=' + reSearchCity + '&limit=1&appid=' + apiKey;
     console.log('returning geoCode for search input? ' + queryGeoCode); //pull link from API.
 
     fetch(queryGeoCode)
